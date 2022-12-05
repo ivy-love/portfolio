@@ -5,7 +5,7 @@
 디자이너로 근무하며 경험했던 UI/UX의 디테일을 살리는 데에 집중하려고 노력합니다.
 앞으로 다양한 개발 환경에서 작업해보고 반응형에 최적화된 UI/UX 개발 능력을 갖추는 것이 목표입니다.
 
-## Languages & Tools
+# Languages & Tools
 <div align="left">
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/>
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>
@@ -22,10 +22,10 @@
   <img src="https://img.shields.io/badge/Illustration-FF9A00?style=flat&logo=Illustration&logoColor=white"/>
 </div>
 
-## Career
+# Career
 2019.03~2021.01 (주)씨케이앤비 웹디자이너 근무
 
-## Education
+# Education
 2022.04 - 2022.06 JQuery&Javascript
 <br>
 2020.10 - 2020.12 JQuery&Javascript
