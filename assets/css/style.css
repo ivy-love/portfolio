@@ -224,6 +224,7 @@
  .privacy_area dd { 
     margin: 0 10px;
     font-size: 14px;
+    line-height: 1.5;
  } 
  .privacy_area > div .date { 
     display: block; 
