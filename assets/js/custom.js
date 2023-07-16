@@ -67,9 +67,9 @@ $(function(){
 
     function eff01(){
         var tweenStagger = new TweenMax.staggerFromTo('.section01 .txt02 strong i', 0.4,{y:20,opacity:0,},{y: 0,opacity:1},0.2);
-        var tweenStagger = new TweenMax.staggerFromTo('.section02 .txt02 strong i', 0.4,{y:20,opacity:0,},{y: 0,opacity:1},0.2);
         var tweenStagger = new TweenMax.staggerFromTo('.section03 .txt02 strong i', 0.4,{y:20,opacity:0,},{y: 0,opacity:1},0.2);
         var tweenStagger = new TweenMax.staggerFromTo('.section04 .txt02 strong i', 0.4,{y:20,opacity:0,},{y: 0,opacity:1},0.2);
+        var tweenStagger = new TweenMax.staggerFromTo('.section05 .txt02 strong i', 0.4,{y:20,opacity:0,},{y: 0,opacity:1},0.2);
     }
 
 
