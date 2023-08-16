@@ -65,7 +65,7 @@
 .section03 .bg { background:url(../img/bg/bg_section3.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
 .section04 .bg { background:url(../img/bg/bg_section4.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
 .section05 .bg { background:url(../img/bg/bg_section5.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
-.section06 .bg { background:url(../img/bg/bg_section5.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
+.section06 .bg { background:url(../img/bg/bg_section6.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
 
 /*swiper-side gradient bg*/
 .bg_opac { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; opacity: 0; 
