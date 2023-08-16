@@ -32,8 +32,8 @@
 /*menu_bg inner*/
 .menu_bg { position: fixed; width: 100%; height: 100%; left: -100%; top: 0; background: rgba(0,0,0,0.9); z-index:2; } 
 .menu_bg_inner { width: 100%; height: 100%; position: relative; } 
-.menu_bg .gnb { position: absolute; top: 50%; left: 50%; margin-left: -393.32px; /*-345.32px;*/ margin-top: -38px; } 
-.menu_bg .gnb ul { overflow: hidden; } 
+.menu_bg .gnb { position: absolute; top: 50%; left: 50%; transform: translateX(-50%); } 
+.menu_bg .gnb ul { width: 100vw; text-align: center; overflow: hidden; } 
 .menu_bg .gnb li { display: inline-block; padding-right: 40px; margin: 20px 0; } 
 .menu_bg .gnb li:last-child { padding-right: 0; } 
 .menu_bg .gnb li a { font-size:30px; color: #fff; } 
@@ -57,6 +57,7 @@
 .section03 { background: #393635; } 
 .section04 { background: #393635; } 
 .section05 { background: #393635; } 
+.section06 { background: #393635; } 
 .swiper-slide { overflow: hidden; } 
 .swiper-slide .bg { width: 100%; height: 100%; } 
 .section01 .bg { background:url(../img/bg/bg_section1.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
@@ -64,6 +65,7 @@
 .section03 .bg { background:url(../img/bg/bg_section3.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
 .section04 .bg { background:url(../img/bg/bg_section4.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
 .section05 .bg { background:url(../img/bg/bg_section5.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
+.section06 .bg { background:url(../img/bg/bg_section5.jpg) no-repeat; background-position: center; background-size:cover; position: absolute; top: 0; left: 0; } 
 
 /*swiper-side gradient bg*/
 .bg_opac { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; opacity: 0; 
@@ -86,7 +88,7 @@
 .skill_wrap span:hover { background: transparent; border-color: #fff; color: #fff; } 
 .main_intro { z-index: 9; color: #fff; text-align: center; line-height: 1.5; } 
 .main_intro .txt01 { font-size:18px; display: inline-block; } 
-.main_intro .txt01 span { font-weight: 800; } 
+.main_intro .txt01 > span { font-weight: 800; } 
 .main_intro .txt02 strong { font-size:65px; display: block; line-height: 1.2; font-weight: 700; padding: 5px 0 30px; } 
 .main_intro .txt02 strong i { display: inline-block; } 
 .main_intro p { font-size:18px; line-height: 1.7; color: #fff; font-weight: 500; padding-bottom: 20px;} 
