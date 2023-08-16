@@ -9,8 +9,8 @@
 <div align="left">
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/>
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JQuery-0769AD?style=flat&logo=JQuery&logoColor=white"/>
   <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=JAVASCRIPT&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JQuery-0769AD?style=flat&logo=JQuery&logoColor=white"/>
   <br>
   <img src="https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Visual Studio  Code-007ACC?style=flat&logo=/Visual Studio Code&logoColor=white"/>
@@ -28,6 +28,8 @@
 2019.03~2021.01 (주)씨케이앤비 웹디자이너 근무
 
 # Education
+2023.04 - 2022.06 React&Node.js
+<br>
 2022.04 - 2022.06 JQuery&Javascript
 <br>
 2020.10 - 2020.12 JQuery&Javascript
