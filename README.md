@@ -28,7 +28,7 @@
 2019.03~2021.01 (주)씨케이앤비 웹디자이너 근무
 
 # Education
-2023.04 - 2022.06 React&Node.js
+2023.04 - 2023.06 React&Node.js
 <br>
 2022.04 - 2022.06 JQuery&Javascript
 <br>
