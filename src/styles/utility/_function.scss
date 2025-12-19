@@ -1,0 +1,17 @@
+// color: color(text);
+@function color($color) {
+  @return map-get($color-set, $color);
+}
+
+// responsive setting
+@function device($device, $arg) {
+  $device-value: map-get($breakpoints, $device);
+  $device-px: map-keys($device-value);
+  $device-desc: map-values($device-value);
+
+  @if ($arg == "key") {
+    @return $device-px;
+  } @else if($arg == "value") {
+    @return $device-desc;
+  }
+}

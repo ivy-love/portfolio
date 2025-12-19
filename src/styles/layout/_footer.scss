@@ -1,0 +1,28 @@
+.portfolio-footer {
+  background-color: color(bk);
+  padding-bottom: 50px;
+
+  @include tablet {
+    padding-bottom: 20px;
+  }
+
+  .ft-center {
+    max-width: 1860px;
+    width: 95%;
+    margin: 0 auto 20px;
+    padding: 0 15px;
+  }
+
+  .copylight {
+    padding: 20px 0 0 5px;
+    border-top: 1px solid rgba(#fff, 0.5);
+    font-size: 15px;
+    font-weight: 200;
+    color: color(wh);
+
+    @include tablet {
+      padding-top: 8px;
+      font-size: 12px;
+    }
+  }
+}

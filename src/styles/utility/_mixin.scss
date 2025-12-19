@@ -1,0 +1,97 @@
+// responsive Setting
+@mixin media-dv($device, $range: max) {
+  @media all and (#{$range}-width: device($device, "key")) {
+    @content;
+  }
+}
+
+@mixin ltablet {
+  @include media-dv(ltab) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @include media-dv(tab) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @include media-dv(mb) {
+    @content;
+  }
+}
+
+// responsive custom
+@mixin media($px, $range: max) {
+  @media all and (#{$range}-width: $px) {
+    @content;
+  }
+}
+
+@mixin full {
+  width: 100%;
+  height: 100%;
+}
+
+// background image
+@mixin bg-url($path, $img) {
+  background-image: urlPath($path, $img);
+}
+
+@mixin bg-op($p: center, $s: auto, $r: no-repeat) {
+  background-position: $p;
+  background-size: $s;
+  background-repeat: $r;
+}
+
+// bafore, after
+@mixin make-before($c: "", $d: block) {
+  &:before {
+    content: $c;
+    display: $d;
+    @content;
+  }
+}
+
+@mixin make-after($c: "", $d: block) {
+  &:after {
+    content: $c;
+    display: $d;
+    @content;
+  }
+}
+
+// input
+@mixin input-reset {
+  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+// scroll custom style
+@mixin custom-scroll($c: null, $sub-c: #fff, $r: 0, $w: 4px) {
+  &::-webkit-scrollbar {
+    width: $w;
+    height: 4px;
+    background-color: $sub-c;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $c;
+    border-radius: $r;
+  }
+
+  @include ie-style {
+    scrollbar-arrow-color: $c;
+    scrollbar-face-color: $c;
+    scrollbar-track-color: $sub-c;
+  }
+}
